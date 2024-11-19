@@ -7,10 +7,10 @@ This project is a very simple chatbot service, it's meant to recieve api request
 
 **- Install PostgreSQL (v16):**
 You'll need to use PostgreSQL version 16, at least in my case and at the time of writing this, pgvector is not compatible with PostgreSQL v17.
+
 **- Install PostgreSQL (v16):**
 And you'll need to install pgvector, you can do so by following the instructions in this link:
 https://github.com/pgvector/pgvector
-
 
 **- Set up your database**
 Create a database, and run the code in database.sql
@@ -34,3 +34,18 @@ pip install -r requirements.txt
 * Run
 ```
 uvicorn main:app --reload
+```
+
+## Exemples
+In my case I used a Monopoly game file, you can find it in the public folder of the repo. And here below is some screenshots of the api responses for uploading and asking couple of questions. !! Again they are not good, but they aren't technically wrong, more like a deplomatic answer.
+
+-------------
+![](./public/upload_file.jpg)
+![](./public/res_upload_file.jpg)
+-------------
+![](./public/ask_question.jpg)
+![](./public/res_question.jpg)
+-------------
+![](./public/ask_question2.jpg)
+![](./public/res_question2.jpg)
+-------------
