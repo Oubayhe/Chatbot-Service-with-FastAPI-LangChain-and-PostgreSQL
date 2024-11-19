@@ -1,0 +1,9 @@
+fastapi==0.95.2
+uvicorn==0.23.2
+psycopg2-binary==2.9.7
+langchain==0.0.289
+langchain-community==0.0.10
+sentence-transformers==2.2.2
+transformers==4.35.0
+pydantic==1.10.9
+dotenv==0.13.0
